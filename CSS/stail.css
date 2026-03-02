@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(230, 150, 176);
+}
+#soso {
+    margin: 0 auto;
+    background-color: rgb(226, 236, 132);
+  }
+h1, h2{
+    front-family: garamond;
+    front-size: 45px;
+    color: black;
+    text-align: center;
+}
+#tata{
+    margin: 0 auto;
+    background-color: rgb(226, 236, 132);
+
+
+}
+a img {
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a img {
+    transition: transform 0.3s;
+  }
+  
+  a img:hover {
+    transform: scale(1.1);
+  }
+  .galeria {
+    display: flex;
+    justify-content: center; /* centra sin separar demasiado */
+    gap: 20px; /* espacio entre imágenes */
+    flex-wrap: wrap; /* se acomodan si no caben */
+  }
+  
+  .galeria img {
+    width: 200px; /* tamaño fijo */
+    max-width: 100%;
+  }
+  .galeria img {
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.2);
+  }
+  .galeria img {
+    width: 200px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  }
+  #lista{
+    text-align: center;
+  }
